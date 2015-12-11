@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8775FC1C1B7A54003850DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A8775FE1C1B7A54003850DF /* Localizable.strings */; };
+		1A8776021C1B7B6C003850DF /* enBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8776001C1B7B6C003850DF /* enBook.jpg */; settings = {ASSET_TAGS = (); }; };
+		1A8776031C1B7B6C003850DF /* ruBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8776011C1B7B6C003850DF /* ruBook.jpg */; settings = {ASSET_TAGS = (); }; };
 		1AEB62301C16472A00DD2114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB622F1C16472A00DD2114 /* main.m */; };
 		1AEB62331C16472A00DD2114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB62321C16472A00DD2114 /* AppDelegate.m */; };
 		1AEB62361C16472A00DD2114 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB62351C16472A00DD2114 /* ViewController.m */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8775FD1C1B7A54003850DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A8775FF1C1B7A58003850DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A8776001C1B7B6C003850DF /* enBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enBook.jpg; sourceTree = "<group>"; };
+		1A8776011C1B7B6C003850DF /* ruBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruBook.jpg; sourceTree = "<group>"; };
 		1AEB622B1C16472A00DD2114 /* Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEB622F1C16472A00DD2114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AEB62311C16472A00DD2114 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		1AEB62521C16472B00DD2114 /* LocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEB62561C16472B00DD2114 /* LocalizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationUITests.m; sourceTree = "<group>"; };
 		1AEB62581C16472B00DD2114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEB62641C164CFE00DD2114 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 		1AEB622D1C16472A00DD2114 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				1A8776001C1B7B6C003850DF /* enBook.jpg */,
+				1A8776011C1B7B6C003850DF /* ruBook.jpg */,
 				1AEB62311C16472A00DD2114 /* AppDelegate.h */,
 				1AEB62321C16472A00DD2114 /* AppDelegate.m */,
 				1AEB62341C16472A00DD2114 /* ViewController.h */,
@@ -113,6 +123,7 @@
 				1AEB62421C16472A00DD2114 /* Info.plist */,
 				1AEB623A1C16472A00DD2114 /* Localization.xcdatamodeld */,
 				1AEB622E1C16472A00DD2114 /* Supporting Files */,
+				1A8775FE1C1B7A54003850DF /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 1AEB62221C16472A00DD2114;
 			productRefGroup = 1AEB622C1C16472A00DD2114 /* Products */;
@@ -249,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8775FC1C1B7A54003850DF /* Localizable.strings in Resources */,
 				1AEB62411C16472A00DD2114 /* LaunchScreen.storyboard in Resources */,
 				1AEB623E1C16472A00DD2114 /* Assets.xcassets in Resources */,
+				1A8776031C1B7B6C003850DF /* ruBook.jpg in Resources */,
+				1A8776021C1B7B6C003850DF /* enBook.jpg in Resources */,
 				1AEB62391C16472A00DD2114 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,10 +330,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1A8775FE1C1B7A54003850DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8775FD1C1B7A54003850DF /* en */,
+				1A8775FF1C1B7A58003850DF /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		1AEB62371C16472A00DD2114 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1AEB62381C16472A00DD2114 /* Base */,
+				1AEB62641C164CFE00DD2114 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -503,6 +528,7 @@
 				1AEB625D1C16472B00DD2114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AEB625E1C16472B00DD2114 /* Build configuration list for PBXNativeTarget "LocalizationTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +537,7 @@
 				1AEB62601C16472B00DD2114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AEB62611C16472B00DD2114 /* Build configuration list for PBXNativeTarget "LocalizationUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +546,7 @@
 				1AEB62631C16472B00DD2114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
