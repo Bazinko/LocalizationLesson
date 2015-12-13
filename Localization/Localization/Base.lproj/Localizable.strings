@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Евгений Сергеев on 12.12.15.
+  Copyright © 2015 Евгений Сергеев. All rights reserved.
+*/
+
+"bookTitle" = "Title";
+"bookAuthor" = "Author";
+"bookDate" = "Date";
+"bookEdition" = "Edition(count)";
+"bookRating" = "Rating";
+"bookDescription" = "Description";
+"bookImage" = "enBook.jpg";
+"bookTitleName" = "Physics of the Impossible";
+"bookAuthorName" = "Michio Kaku";
+

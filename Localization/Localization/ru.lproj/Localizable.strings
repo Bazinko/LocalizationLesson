@@ -6,4 +6,14 @@
   Copyright © 2015 Евгений Сергеев. All rights reserved.
 */
 
-"Image" = "ruBook.jpg";
+"bookTitle" = "Название";
+"bookAuthor" = "Автор";
+"bookDate" = "Дата";
+"bookEdition" = "Тираж";
+"bookRating" = "Рейтинг";
+"bookDescription" = "Описание";
+"bookImage" = "ruBook.jpg";
+"bookTitleName" = "Физика невозможного";
+"bookAuthorName" = "Митио Каку";
+
+

@@ -6,4 +6,13 @@
   Copyright © 2015 Евгений Сергеев. All rights reserved.
 */
 
-"Image" = "enBook.jpg";
+"book.title" = "Title";
+"book.author" = "Author";
+"book.date" = "Date";
+"book.edition" = "Edition(count)";
+"book.rate" = "Rate";
+"book.text" = "Some text about this book";
+"book.image" = "enBook.jpg";
+"book.title.VoinaIMir" = "Voina i mir";
+"book.author.Tolstoy" = "L.N Tolstoy";
+
